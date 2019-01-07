@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SettingsPageTest" >
+<test name="AddUser Tests" >
+
+    <parameter name="newuser" value="userAT70600.poulomitesting@forfront.net"/>
+    
+    <classes>
+        <class name="com.eshot.qa.testcases.AddDeleteUserTest"/>
+    </classes>
+</test>
+</suite>
+
+

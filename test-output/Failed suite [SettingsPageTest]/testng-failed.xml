@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [SettingsPageTest]]">
+  <test thread-count="5" name="Manage Profile Tests(failed)(failed)">
+    <parameter name="fname" value="user62000"/>
+    <parameter name="lname" value="user62000"/>
+    <parameter name="mobile" value="07500124589"/>
+    <parameter name="title" value="Mr"/>
+    <parameter name="email" value="user62000.poulomitesting@forfront.net"/>
+    <classes>
+      <class name="com.eshot.qa.testcases.ManageProfileE2ETest">
+        <methods>
+          <include name="SetupAndLogin"/>
+          <include name="CheckMail"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- com.eshot.qa.testcases.ManageProfileE2ETest -->
+    </classes>
+  </test> <!-- Manage Profile Tests(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SettingsPageTest]] -->

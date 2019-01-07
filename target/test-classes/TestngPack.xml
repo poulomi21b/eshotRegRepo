@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionforSettingsPage" verbose="1" >
+<test name="SignUpFormTest" >
+    <classes>
+        <class name="com.eshot.qa.testcases.SignUpFormTest"/>
+    </classes>
+</test>
+<test name="AddDeleteUserTest" >
+    <parameter name="newuser" value="userAT70600.poulomitesting@forfront.net"/>
+    <classes>
+        <class name="com.eshot.qa.testcases.AddDeleteUserTest"/>
+    </classes>
+</test>
+<test name="ManageProfileTest" >
+    <classes>
+        <class name="com.eshot.qa.testcases.ManageProfileTest"/>
+    </classes>
+</test>
+
+<!--test name="AddNewContact" >
+    <parameter name="email" value="user61000.poulomitesting@forfront.net"/>
+    <parameter name="mobile" value="07500124589"/>
+    <parameter name="title" value="Mr"/>
+    <parameter name="fname" value="user61000"/>
+    <parameter name="lname" value="user61000"/>
+    <classes>
+        <class name="com.eshot.qa.testcases.AddNewContactTest"/>
+    </classes>
+</test -->
+</suite>
+
+

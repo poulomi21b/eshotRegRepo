@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SettingsPageTest" >
+<test name="Manage Profile Tests" >
+    
+    <classes>
+        <class name="com.eshot.qa.testcases.ManageProfileTest"/>
+    </classes>
+</test>
+</suite>
+
+

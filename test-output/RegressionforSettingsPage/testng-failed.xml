@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionforSettingsPage]">
+  <test thread-count="5" name="AddNewContact(failed)">
+    <parameter name="fname" value="user61000"/>
+    <parameter name="lname" value="user61000"/>
+    <parameter name="mobile" value="07500124589"/>
+    <parameter name="title" value="Mr"/>
+    <parameter name="email" value="user61000.poulomitesting@forfront.net"/>
+    <classes>
+      <class name="com.eshot.qa.testcases.AddNewContactTest">
+        <methods>
+          <include name="AddContact" invocation-numbers="0"/>
+          <include name="SetupAndLogin"/>
+        </methods>
+      </class> <!-- com.eshot.qa.testcases.AddNewContactTest -->
+    </classes>
+  </test> <!-- AddNewContact(failed) -->
+</suite> <!-- Failed suite [RegressionforSettingsPage] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Settings Page Test]">
+  <test thread-count="5" name="AddUser Tests(failed)">
+    <parameter name="newuser" value="userAT70600.poulomitesting@forfront.net"/>
+    <classes>
+      <class name="com.eshot.qa.testcases.SettingsPageTest">
+        <methods>
+          <include name="singleSignupForm"/>
+          <include name="SetupAndLogin"/>
+          <include name="manageProfileTest"/>
+          <include name="endSession"/>
+          <include name="doubleSignupForm"/>
+        </methods>
+      </class> <!-- com.eshot.qa.testcases.SettingsPageTest -->
+    </classes>
+  </test> <!-- AddUser Tests(failed) -->
+</suite> <!-- Failed suite [Settings Page Test] -->

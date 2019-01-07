@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RegressionforSettingsPage" >
+<test name="TestAll" >
+    <parameter name="newuser" value="userAT70600.poulomitesting@forfront.net"/>
+    <classes>
+        <class name="com.eshot.qa.testcases.SignUpFormTest"/>
+        <class name="com.eshot.qa.testcases.AddDeleteUserTest"/>
+        <class name="com.eshot.qa.testcases.ManageProfileTest"/>
+    </classes>
+</test>
+</suite>
+
+

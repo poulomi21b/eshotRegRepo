@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SettingsPageTest" duration-ms="348161" started-at="2018-12-10T11:09:57Z" finished-at="2018-12-10T11:15:45Z">
+    <groups>
+    </groups>
+    <test name="SignUpForm Tests" duration-ms="348161" started-at="2018-12-10T11:09:57Z" finished-at="2018-12-10T11:15:45Z">
+      <class name="com.eshot.qa.testcases.SignUpFormTest">
+        <test-method status="PASS" signature="SetupAndLogin()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="SetupAndLogin" is-config="true" duration-ms="26068" started-at="2018-12-10T11:09:57Z" finished-at="2018-12-10T11:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupAndLogin -->
+        <test-method status="PASS" signature="CreateSingleSignupForm()[pri:1, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="CreateSingleSignupForm" duration-ms="87526" started-at="2018-12-10T11:10:23Z" finished-at="2018-12-10T11:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateSingleSignupForm -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="endSession" is-config="true" duration-ms="700" started-at="2018-12-10T11:11:51Z" finished-at="2018-12-10T11:11:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+        <test-method status="PASS" signature="SetupAndLogin()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="SetupAndLogin" is-config="true" duration-ms="19057" started-at="2018-12-10T11:11:52Z" finished-at="2018-12-10T11:12:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupAndLogin -->
+        <test-method status="PASS" signature="CloneSingleSignupForm()[pri:2, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="CloneSingleSignupForm" duration-ms="34500" started-at="2018-12-10T11:12:11Z" finished-at="2018-12-10T11:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloneSingleSignupForm -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="endSession" is-config="true" duration-ms="771" started-at="2018-12-10T11:12:45Z" finished-at="2018-12-10T11:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+        <test-method status="PASS" signature="SetupAndLogin()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="SetupAndLogin" is-config="true" duration-ms="18055" started-at="2018-12-10T11:12:46Z" finished-at="2018-12-10T11:13:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupAndLogin -->
+        <test-method status="PASS" signature="CreateDoubleSignupForm()[pri:3, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="CreateDoubleSignupForm" duration-ms="107432" started-at="2018-12-10T11:13:04Z" finished-at="2018-12-10T11:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDoubleSignupForm -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="endSession" is-config="true" duration-ms="763" started-at="2018-12-10T11:14:51Z" finished-at="2018-12-10T11:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+        <test-method status="PASS" signature="SetupAndLogin()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="SetupAndLogin" is-config="true" duration-ms="17329" started-at="2018-12-10T11:14:52Z" finished-at="2018-12-10T11:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetupAndLogin -->
+        <test-method status="PASS" signature="CloneDoubleSignupForm()[pri:4, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="CloneDoubleSignupForm" duration-ms="35109" started-at="2018-12-10T11:15:09Z" finished-at="2018-12-10T11:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloneDoubleSignupForm -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:com.eshot.qa.testcases.SignUpFormTest@59f99ea]" name="endSession" is-config="true" duration-ms="770" started-at="2018-12-10T11:15:45Z" finished-at="2018-12-10T11:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- com.eshot.qa.testcases.SignUpFormTest -->
+    </test> <!-- SignUpForm Tests -->
+  </suite> <!-- SettingsPageTest -->
+</testng-results>

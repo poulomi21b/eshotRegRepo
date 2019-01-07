@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SettingsPageTest" >
+
+<listeners>
+			<listener class-name="com.eshot.qa.utils.RetryListener"/>
+</listeners>
+
+<test name="Manage Profile Tests" >
+
+    <parameter name="email" value="user62000.poulomitesting@forfront.net"/>
+    <parameter name="mobile" value="07500124589"/>
+    <parameter name="title" value="Mr"/>
+    <parameter name="fname" value="user62000"/>
+    <parameter name="lname" value="user62000"/>
+    
+    <classes>
+        <class name="com.eshot.qa.testcases.ManageProfileE2EOldTest"/>
+    </classes>
+</test>
+</suite>
+
+
